@@ -4,12 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.bruno.curso.boot.domain.Funcionario;
+
 @Controller
 @RequestMapping("/funcionarios")
 public class FuncionarioController {
 
 	@GetMapping("/cadastrar")
-	public String cadastrar() {
+	public String cadastrar(Funcionario funcionario) {
 		return "/funcionario/cadastro";
 	}
 	

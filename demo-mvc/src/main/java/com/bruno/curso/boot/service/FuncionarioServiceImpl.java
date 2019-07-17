@@ -36,7 +36,7 @@ public class FuncionarioServiceImpl implements FuncionarioService {
 	}
 
 	@Override
-	public List<Funcionario> BuscarTodos() {
+	public List<Funcionario> buscarTodos() {
 		return dao.findAll();
 	}
 }
