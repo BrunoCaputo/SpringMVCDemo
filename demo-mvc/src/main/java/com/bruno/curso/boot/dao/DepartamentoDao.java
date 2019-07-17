@@ -8,7 +8,7 @@ public interface DepartamentoDao {
 
 	void save(Departamento departamento);
 	
-	void upadate(Departamento departamento);
+	void update(Departamento departamento);
 	
 	void delete(Long id);
 	

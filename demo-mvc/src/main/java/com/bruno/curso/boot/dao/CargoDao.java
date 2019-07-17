@@ -8,7 +8,7 @@ public interface CargoDao {
 
 	void save(Cargo cargo);
 
-	void upadate(Cargo cargo);
+	void update(Cargo cargo);
 
 	void delete(Long id);
 

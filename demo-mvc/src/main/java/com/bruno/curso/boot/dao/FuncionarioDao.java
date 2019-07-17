@@ -8,7 +8,7 @@ public interface FuncionarioDao {
 
 	void save(Funcionario funcionario);
 
-	void upadate(Funcionario cargo);
+	void update(Funcionario cargo);
 
 	void delete(Long id);
 
