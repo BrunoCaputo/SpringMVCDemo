@@ -38,7 +38,7 @@
 							id="departamento" class="form-control" th:field="*{departamento}">
 							<option value="">Selecione</option>
 							<option th:each="d : ${departamentos}" th:value="${d.id}"
-								th:text="${d.nome}">Administração</option>
+								th:text="${d.nome}"></option>
 						</select>
 					</div>
 				</div>
